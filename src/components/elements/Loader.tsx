@@ -18,7 +18,7 @@ export default function Loader({ loading }: { loading?: boolean }) {
 		<div className='absolute inset-0 flex justify-center items-center h-screen z-50 w-full bg-foreground'>
 			<Image
 				className='aspect-auto animate-pulse'
-				src='/logo.svg'
+				src='/images/logos/logo.svg'
 				width={156}
 				height={60}
 				alt='logo'

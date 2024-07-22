@@ -1,8 +1,8 @@
 export default function Hero() {
 	return (
-		<div className='hero relative h-[540px]'>
+		<div className='hero relative h-[540px] mb-20'>
 			<img
-				src='/hero.jpeg'
+				src='/images/hero.jpeg'
 				alt='hero'
 				className='absolute inset-0 w-full h-full object-cover object-bottom'
 			/>
