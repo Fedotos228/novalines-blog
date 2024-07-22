@@ -32,7 +32,7 @@ export default function Header() {
 			<div className='container mx-auto flex px-4 items-center justify-between'>
 				<Link href='/'>
 					<Image
-						src='/logo.svg'
+						src='/images/logos/logo.svg'
 						alt='logo'
 						priority
 						className='aspect-auto'
