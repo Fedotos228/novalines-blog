@@ -28,7 +28,7 @@ export default function Header() {
 	}
 
 	return (
-		<header className='w-full z-30 top-0 shadow-md py-6 fixed bg-transparent backdrop-blur-sm'>
+		<header className='w-full z-30 top-0 shadow-md py-6 fixed bg-black/40 backdrop-blur-sm'>
 			<div className='container mx-auto flex px-4 items-center justify-between'>
 				<Link href='/'>
 					<Image
