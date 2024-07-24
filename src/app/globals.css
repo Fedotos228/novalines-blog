@@ -11,6 +11,36 @@
         padding: 0 16px;
     }
     
+    .post-container{
+        max-width: 1070px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 16px;
+    }
+	
+	.post-container time{
+		@apply text-coral-500 text-xl font-medium mb-3 block;
+	}
+	
+	.post-container p:not(:last-child){
+		@apply text-muted-foreground text-base mb-3
+	}
+
+	.post-container h1, .post-container h2, .post-container h3{
+		@apply mt-8 mb-3;
+	}
+
+	.post-container h4, .post-container h5, .post-container h6{
+		@apply mt-5 mb-3;
+	}
+
+	.post-container ul{
+		@apply list-disc ml-4 text-muted-foreground text-base marker:text-blaze-500 marker:text-xl;
+	}
+	.post-container ul li:not(:last-child){
+		@apply mb-3;
+	}
+    
     :root {
         --background: 0 0% 100%;
         --foreground: 0 0% 13%;

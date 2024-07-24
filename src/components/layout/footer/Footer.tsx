@@ -35,17 +35,14 @@ export default function Footer() {
 
 				<div className='text-center'>
 					<h2>Social</h2>
-					<div
-						className='flex items-center gap-3 
- justify-evenly text-muted mt-2 text-sm lg:text-base'
-					>
+					<div className='flex items-center gap-3 justify-evenly text-muted mt-2 text-sm lg:text-base'>
 						<Link
 							href='https://www.instagram.com/novalines.operations.center?igsh=eXo2NTFyZWFnemYy'
 							target='_blank'
 							className='block'
 						>
 							<Image
-								src='/insta.svg'
+								src='/images/logos/instagram.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
@@ -57,7 +54,7 @@ export default function Footer() {
 							className='block'
 						>
 							<Image
-								src='/facebook.svg'
+								src='/images/logos/facebook.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
@@ -69,7 +66,7 @@ export default function Footer() {
 							className='block'
 						>
 							<Image
-								src='/linkedin.svg'
+								src='/images/logos/linkedin.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
