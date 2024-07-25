@@ -1,8 +1,12 @@
 import Footer from '@/components/layout/footer/Footer'
-import Header from '@/components/layout/header/Header'
 import { DinNextLtProFont } from '@/font'
 import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
 import './globals.css'
+
+const Header = dynamic(() => import('../components/layout/header/Header'), {
+	ssr: false,
+})
 
 export const metadata: Metadata = {
 	title: 'Novalines Blog',
@@ -43,8 +47,6 @@ export const metadata: Metadata = {
 		type: 'website',
 	},
 }
-
-// const Header = dynamic(() => import('@/components/layout/header/Header'), { ssr: false })
 
 export default function RootLayout({
 	children,
