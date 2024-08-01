@@ -13,8 +13,10 @@ const buttonVariants = cva(
 					'bg-blaze-500 text-white shadow font-normal hover:bg-blaze-500/90',
 				primary:
 					'bg-coral-600 text-white shadow font-normal hover:bg-coral-600/90',
-				outline:
+				outlinePrimary:
 					'border border-coral-600 bg-transparent shadow-sm hover:bg-coral-600 text-coral-600 hover:text-white',
+				outline:
+					'border border-blaze-500 bg-transparent shadow-sm hover:bg-blaze-500 text-blaze-500 hover:text-white',
 				secondary:
 					'bg-gray-200 text-foreground shadow-sm hover:bg-gray-200/60',
 				ghost: 'hover:bg-gray-100 hover:text-foreground',
