@@ -45,7 +45,7 @@ export default function Footer() {
 							className='block'
 						>
 							<Image
-								src='/insta.svg'
+								src='/images/logos/insta.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
@@ -57,7 +57,7 @@ export default function Footer() {
 							className='block'
 						>
 							<Image
-								src='/facebook.svg'
+								src='/images/logos/facebook.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
@@ -69,7 +69,7 @@ export default function Footer() {
 							className='block'
 						>
 							<Image
-								src='/linkedin.svg'
+								src='/images/logos/linkedin.svg'
 								alt='Instagram'
 								width={30}
 								height={30}
